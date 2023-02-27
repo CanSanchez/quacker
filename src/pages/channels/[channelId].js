@@ -194,13 +194,13 @@ const handleKeyDown = (e) => {
               <span style={{display: 'flex', alignItems: 'center', marginTop: '1em'}}
               onClick={() => handleDelete(message)}
               >
-                <Image width={10} height={10} style={{marginRight: '5px'}} src='/delete.png' />
+                <Image width={10} height={10} style={{marginRight: '5px'}} src='/delete.png' alt="delete message"/>
                 <p style={{fontSize: '.8em', fontWeight: '200'}}>Delete message</p>
               </span>
               <span style={{display: 'flex', alignItems: 'center', marginTop: '1em'}}
               onClick={() => handleEditMessage(message)}
               >
-                <Image width={10} height={10} style={{marginRight: '5px'}} src='/pencil.png' />
+                <Image width={10} height={10} style={{marginRight: '5px'}} src='/pencil.png' alt="edit message"/>
                 <p style={{fontSize: '.8em', fontWeight: '200'}}>Edit message</p>
               </span>
 

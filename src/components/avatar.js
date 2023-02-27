@@ -11,6 +11,7 @@ export const Avatar = (props) => {
                 <Image src={props.src} width={50} height={50} 
                     className={styles.avatarimg}
                     priority
+                    alt='avatar'
                 />
             </Link>
         </>
