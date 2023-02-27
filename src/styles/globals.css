@@ -105,3 +105,51 @@ a {
     color-scheme: dark;
   }
 }
+
+h1, p, h2, h3, h4, h5, h6 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: whitesmoke;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input, textarea {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: 1px solid rgb(var(--card-border-rgb));
+  border-radius: 10px;
+  padding: 0.2rem;
+  margin: 0.5rem;
+  background: rgb(var(--card-rgb));
+  color: rgb(var(--foreground-rgb));
+  font-size: .8rem;
+  font-weight: 600;
+  width: 80%;
+}
+
+input:placeholder-shown , textarea:placeholder-shown {
+  font-weight: 400;
+  text-align: center
+}
+
+button {
+  border-radius: 5px;
+  border: none;
+  padding: 0.5rem;
+  margin: 0.2rem;
+  background: rgb(177, 75, 214);
+  font-size: .8rem;
+  font-weight: 600;
+  width: 60%;
+  max-width: 400px;
+  color: whitesmoke;
+}
+
+button:hover {
+  background: rgba(212, 163, 229, 0.8);
+}
