@@ -43,7 +43,7 @@ export default function Home(){
       </Head>
       <main className={styles.main}>
         <div className={styles.container}>
-        <h2>What's your name?</h2>
+        <h2>What&apos;s your name?</h2>
         <input
           type="text"
           placeholder="Username"
